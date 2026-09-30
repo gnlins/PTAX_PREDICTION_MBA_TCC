@@ -6,8 +6,8 @@ import pandas as pd
 def dividir_treino_teste_tcc(
     caminho_csv,
     incluir_usd_t=False,
-    proporcao_treino=0.80
-    ):
+    proporcao_treino=0.80):
+    
     """
     Divide a base em treino e teste utilizando divisão temporal.
 
